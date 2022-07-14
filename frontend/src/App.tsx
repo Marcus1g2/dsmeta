@@ -1,20 +1,20 @@
-import NotificationButton from "./Components/NotificationButton"
-import Logo from "../src/Components/Header/index"
-import SalesCard from "./Components/SalesCard"
+import NotificationButton from "./Components/NotificationButton";
+import Logo from "../src/Components/Header/index";
+import SalesCard from "./Components/SalesCard";
 function App() {
   return (
     <>
 
-      <Logo/>
+      <Logo />
       <main>
-        <section id= "sales">
+        <section id="sales">
           <div className="dsmeta-container"></div>
-         <SalesCard/>
+          <SalesCard />
         </section>
-        </main>
+      </main>
 
     </>
   )
 }
 
-export default App
+export default App;
